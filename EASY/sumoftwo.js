@@ -37,7 +37,23 @@ console.log(response);
 var fib =function(n){
   const arr = [0,1];
   for(let i=2;i<=n;i++){
-    arr.push(arr[i-1]+arr[i-2]);
+    arr.push(arr[i-1] + arr[i-2]);
   }
-  return n;
+  return arr[n];
+}
+//the goal is to return the fibonacci number at given index
+const result=fib(6);
+console.log(result);
+
+//recrusion
+
+
+//Anagram this means the word or phrase formed by re arranging the letters to form a  different word or phrase using all the original letters once
+//example "anagram"=>"nagram" true
+//"rat"=>"car"  false
+
+const isAnagram = function (s,t){
+s=s.split("").sort().join("");
+t=t.split("").sort().join("");
+return s===t;
 }
