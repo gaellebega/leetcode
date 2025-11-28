@@ -1,0 +1,6 @@
+ Big O is a way to measure how fast a code or algorithm grow as size of input gets bigger to measure we count the operations
+
+ why it matters?
+ to know the time complexity how many steps your codes needs
+ space complexity how much estra memory it uses
+ 
