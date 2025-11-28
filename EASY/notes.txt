@@ -3,4 +3,15 @@
  why it matters?
  to know the time complexity how many steps your codes needs
  space complexity how much estra memory it uses
- 
+
+ 1. O(1) constant time
+ return arr[0]
+ 2.O(n) linear time
+ for the single for loop
+ 3.O(npow2) Quadratic time
+ for nested loop
+ 4.O(logn) logarithimic
+ 5.O(2pown) exponential
+ very slow brute force recrusion
+ 6.O(n!) factorial
+ used in persmutation extreme and slow
