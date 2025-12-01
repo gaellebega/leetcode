@@ -4,8 +4,10 @@ the hasmaps is datastructure that store key->values pairs it is like the diction
 -you can check if somthing exist in 0(1) time super fast
 -you can store into and retiecve data it quicky using the keys
 
+let us say you have the box contain many colors of the candies so to separate them you will need to pur the candies down so to solve the problem you are going to use the hasmaps which will contain the box of each color
 you can use them to:
 -find the duplicates
 -count  the characters
-comparing the arrays
-sliding the windo memory
+-comparing the arrays
+-sliding the windo memory
+storing the last seen index
