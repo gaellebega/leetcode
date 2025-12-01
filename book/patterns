@@ -1,0 +1,11 @@
+1.Hashmaps
+
+the hasmaps is datastructure that store key->values pairs it is like the dictionary to search for the word you dont have to read the whole the dictionary but straight to the word.
+-you can check if somthing exist in 0(1) time super fast
+-you can store into and retiecve data it quicky using the keys
+
+you can use them to:
+-find the duplicates
+-count  the characters
+comparing the arrays
+sliding the windo memory
