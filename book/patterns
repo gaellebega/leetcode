@@ -19,3 +19,13 @@ we use 2 pointers is used when the soilution requires comparing or processing tw
 
 how they work one at start one at the end orboth at the start but move at different speeds
 they move depending on the condition until they meet
+
+when do we use them
+.the array is sorted
+.you need to find pairs that satisfy some rules(sum,difference,matching etc)
+.you need to reverse or compare the characters
+.you need to merge 2 sorted arrays
+.you need fast movement from both ends without nested loops
+
+N.B: two pointers eliminates the need of a nested loop
+O(n^2) they move bointers at once O(n)
