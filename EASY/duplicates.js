@@ -14,3 +14,4 @@ var removeDuplicates = function(nums) {
     }
     return write;
 };
+//coding is hard but being poor is even harder
