@@ -11,3 +11,11 @@ you can use them to:
 -comparing the arrays
 -sliding the windo memory
 storing the last seen index
+
+
+2.Two pointers 
+
+we use 2 pointers is used when the soilution requires comparing or processing two positions in a linear structure like an arrays or strings at the same time.
+
+how they work one at start one at the end orboth at the start but move at different speeds
+they move depending on the condition until they meet
