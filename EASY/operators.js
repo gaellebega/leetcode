@@ -1,4 +1,4 @@
-const { use } = require("react");
+
 
 function spreadOp(...nums){
 return nums;
@@ -32,9 +32,18 @@ console.log(answer);
 let useSlice=["uwase","kanjogera","mukundwa","mustsh"];
 console.log(useSlice.slice(3))//this means start at the index 3 then give all the remainings
 console.log(useSlice.slice(-2))//this means it will take the last 2
-console.log(useSlice.slice(-1,-2))//this is gonna give the only last index
+console.log(useSlice.slice(-1,-2))//this is gonna give the empty
 
 const bigSentence="ohhthisisit";
 console.log(bigSentence.slice(2,5))
 
-console.log(useSlice.slice(3,1))
+console.log(useSlice.slice(3,1));
+
+const names=["mukamana","mukundwa","kanjogera","munezero"];
+let modify=names.splice(0,2,"paul");
+//paul,kanjogera,munezero
+console.log(modify);
+
+const basket1=["apple","banana","orange","grape"];
+const basket2=["mango","pineapple","peach"];
+console.log(basket1.fill("umwembe",0,2));
