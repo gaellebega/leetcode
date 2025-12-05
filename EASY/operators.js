@@ -46,4 +46,20 @@ console.log(modify);
 
 const basket1=["apple","banana","orange","grape"];
 const basket2=["mango","pineapple","peach"];
-console.log(basket1.fill("umwembe",0,2));
+console.log(basket1.fill("umwembe",0,2)); 
+//when you want to replace everything then all u have to do is writte onky ne thing in 
+console.log(basket2.fill("booo"));
+console.log(basket1.fill("wow",1));
+
+
+//sort method
+const word="edcba";
+console.log(word.split("").sort().join(""));
+
+//but when we have the array of letters
+const arrayLetters=["o","m","s","a","v","m","x"];
+console.log(arrayLetters.sort())
+
+const number=[5,3,8,1,4];
+console.log(number.sort((a,b)=>b-a));
+console.log(number.sort((a,b)=>a-b));
