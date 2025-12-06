@@ -12,9 +12,18 @@
 // console.log(secondLargestNumber([[10,5,10]]))
 
 function findSecondLargest(arr){
-  const uniqueArr = Array.from(new Set(arr));
-  uniqueArr.sort((a,b)=>a-b);
-  console.log(uniqueArr)
- 
-}
-findSecondLargest([16,35,1,10,34,35,1]);
+  const uniqueArr=Array.from(new Set(arr));//O(n)
+  uniqueArr.sort((a,b)=>b-a);//O(nlogn)
+  // console.log(uniqueArr)
+  if(uniqueArr.length>=2){
+    return uniqueArr[1]
+  }
+  else {
+    return  uniqueArr.length-1;
+  }
+
+} 
+
+
+console.log(findSecondLargest([1,3,5,7,0]));
+//time complexity:O(nlogn)
